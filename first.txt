@@ -1,1 +1,7 @@
 this is first cse 16 repo file
+
+
+HW - 25-09-2025
+    make list of special symbols in html like &copy; etc
+    iframe
+    use Video and audio tags
