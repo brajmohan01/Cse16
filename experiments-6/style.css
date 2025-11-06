@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 h1{
-    color: white;
+    color: black;
     text-align: center;
 }
 div{
@@ -13,7 +13,7 @@ div{
     border-radius: 5px;
     padding: 10px;
     margin: auto;
-    width: 220px;
+    width: 250px;
     text-align: center;
 
 }
@@ -28,14 +28,19 @@ p{
     color: black;
 }
 .price{
-    color: yellow;
+    color: red;
     font-size: 15px;
     font-weight: bolder;
 }
 button{
-    background: blue;
+    background: purple;
     color: white;
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
+    border: none;
+}
+button:hover{
+    background: rgb(223, 105, 223);
+    cursor: pointer;
 }
