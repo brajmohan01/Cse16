@@ -1,0 +1,41 @@
+.container1 {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: green;
+}
+.container1 div {
+  display: inline;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+}
+.container2 {
+  border: 2px solid grey;
+  margin: 20px;
+  padding: 20px;
+}
+.container2 div {
+  display: inline;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+}
+.box4 {
+  background-color: red;
+}
+.box5 {
+  background-color: blue;
+}
+.box6 {
+  background-color: green;
+}
