@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+h1{
+    justify-self: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.box:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out , box-shadow 0.3s ease-in-out;
+    
+}
+.box{
+    background-color: white;
+    border: 2px solid grey;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
+.money{
+    color: green;
+    font-weight: bolder;
+}
+.btn{
+    background-color: rgb(43, 131, 165);
+    color: white;
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
