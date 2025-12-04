@@ -48,3 +48,23 @@ img{
     text-decoration: none;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: rgb(33, 101, 125);
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    body{
+        background-color: rgb(66, 183, 55);
+    }
+    .box p{
+        font-size: 24px;
+    }
+}
+@media (max-width:799px){
+    body{
+        background-color: rgb(250, 238, 23);
+    }
+    .box p{
+        font-size: 18px;
+    }
+}
